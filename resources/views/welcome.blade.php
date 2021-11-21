@@ -416,7 +416,7 @@
                 </div>
             </div>
             <div class="row mt-4 justify-content-center">
-                <div class="col-md-8 col-lg-4 mt-4 mb-4">
+                <div class="col-md-8 col-lg-4">
                     <div class="card-service card">
                         <div class="card-body">
                             <p class="fw-bold text-center">Paket Signature Nano Ceramic Coating by Crystal Shield</p>
@@ -444,6 +444,55 @@
                                 </li>
                                 <li class="list-group-item">
                                     <i class="far fa-check-circle"></i> Area coating: Semua bagian exterior
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="far fa-check-circle"></i> Detailing exterior & Paint Correction 3 steps
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="far fa-check-circle"></i> Interior & Machine Bay detailing
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="far fa-check-circle"></i> Finishing
+                                </li>
+                            </ul>
+                            <div class="row justify-content-center my-3">
+                                <a href="" class="btn btn-warning rounded-pill text-light w-75">
+                                    choose this package
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-4">
+                    <div class="card-service card">
+                        <div class="card-body">
+                            <p class="fw-bold text-center">Paket Signature Nano Crystal Based Coating by Crystal
+                                Shield</p>
+                            <div class="row text-center">
+                                <div class="col-sm-4 col-md-4">
+                                    Small
+                                    <h6>Rp 4.499.000</h6>
+                                </div>
+                                <div class="col-sm-4 col-md-4">
+                                    Medium
+                                    <h6>Rp 4.999.000</h6>
+                                </div>
+                                <div class="col-sm-4 col-md-4">
+                                    Large
+                                    <h6>Rp 5.499.000</h6>
+                                </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <i class="far fa-check-circle"></i> Ketahanan coating 3-5 tahun, 2 Year Warranty
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="far fa-check-circle"></i> Fitur coating Super Glossy (Seperti kaca) &
+                                    Hydrophobic
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="far fa-check-circle"></i> Area coating: Semua bagian exterior & Bagian
+                                    Interior yang berbahan kulit.
                                 </li>
                                 <li class="list-group-item">
                                     <i class="far fa-check-circle"></i> Detailing exterior & Paint Correction 3 steps
@@ -505,55 +554,6 @@
                             </ul>
                             <div class="row justify-content-center my-3">
                                 <a href="" class="btn btn-light rounded-pill text-warning w-75">
-                                    choose this package
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-4 mt-4">
-                    <div class="card-service card">
-                        <div class="card-body">
-                            <p class="fw-bold text-center">Paket Signature Nano Crystal Based Coating by Crystal
-                                Shield</p>
-                            <div class="row text-center">
-                                <div class="col-sm-4 col-md-4">
-                                    Small
-                                    <h6>Rp 4.499.000</h6>
-                                </div>
-                                <div class="col-sm-4 col-md-4">
-                                    Medium
-                                    <h6>Rp 4.999.000</h6>
-                                </div>
-                                <div class="col-sm-4 col-md-4">
-                                    Large
-                                    <h6>Rp 5.499.000</h6>
-                                </div>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Ketahanan coating 3-5 tahun, 2 Year Warranty
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Fitur coating Super Glossy (Seperti kaca) &
-                                    Hydrophobic
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Area coating: Semua bagian exterior & Bagian
-                                    Interior yang berbahan kulit.
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Detailing exterior & Paint Correction 3 steps
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Interior & Machine Bay detailing
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Finishing
-                                </li>
-                            </ul>
-                            <div class="row justify-content-center my-3">
-                                <a href="" class="btn btn-warning rounded-pill text-light w-75">
                                     choose this package
                                 </a>
                             </div>
