@@ -436,20 +436,20 @@
                             </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Ketahanan coating 3 tahun, 1 Year Warranty
+                                    <i class="far fa-check-circle"></i> Ketahanan Coating 3 Year, 1 Year Warranty
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Fitur coating Glossy, Warna lebih terangkat &
+                                    <i class="far fa-check-circle"></i> Fitur Coating Glossy, Warna Lebih Terangkat &
                                     Hydrophobic
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Area coating: Semua bagian exterior
+                                    <i class="far fa-check-circle"></i> Area coating : Semua Bagian Exterior
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Detailing exterior & Paint Correction 3 steps
+                                    <i class="far fa-check-circle"></i> Detailing Exterior & Paint Correction 3 Steps
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Interior & Machine Bay detailing
+                                    <i class="far fa-check-circle"></i> Interior & Machine Bay Detailing
                                 </li>
                                 <li class="list-group-item">
                                     <i class="far fa-check-circle"></i> Finishing
@@ -484,21 +484,21 @@
                             </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Ketahanan coating 3-5 tahun, 2 Year Warranty
+                                    <i class="far fa-check-circle"></i> Ketahanan Coating 3-5 Year, 2 Year Warranty
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Fitur coating Super Glossy (Seperti kaca) &
+                                    <i class="far fa-check-circle"></i> Fitur Coating Super Glossy (Seperti Kaca) &
                                     Hydrophobic
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Area coating: Semua bagian exterior & Bagian
-                                    Interior yang berbahan kulit.
+                                    <i class="far fa-check-circle"></i> Area coating : Semua Bagian Exterior & Bagian
+                                    Interior Yang Berbahan Kulit
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Detailing exterior & Paint Correction 3 steps
+                                    <i class="far fa-check-circle"></i> Detailing Exterior & Paint Correction 3 steps
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="far fa-check-circle"></i> Interior & Machine Bay detailing
+                                    <i class="far fa-check-circle"></i> Interior & Machine Bay Detailing
                                 </li>
                                 <li class="list-group-item">
                                     <i class="far fa-check-circle"></i> Finishing
@@ -532,21 +532,21 @@
                             </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item bg-warning">
-                                    <i class="far fa-check-circle"></i> Ketahanan coating 5 tahun, 3 Year Warranty
+                                    <i class="far fa-check-circle"></i> Ketahanan Coating 5 Year, 3 Year Warranty
                                 </li>
                                 <li class="list-group-item bg-warning">
-                                    <i class="far fa-check-circle"></i> Fitur coating Warna Cat Terlihat Basah
-                                    (wetlook), Glossy, Deep & Hydrophobic
+                                    <i class="far fa-check-circle"></i> Fitur Coating Warna Cat Terlihat Basah
+                                    (Wetlook), Glossy, Deep & Hydrophobic
                                 </li>
                                 <li class="list-group-item bg-warning">
-                                    <i class="far fa-check-circle"></i> Area coating: Semua bagian exterior & Bagian
-                                    Interior yang berbahan kulit.
+                                    <i class="far fa-check-circle"></i> Area coating : Semua Bagian Exterior & Bagian
+                                    Interior Yang Berbahan Kulit
                                 </li>
                                 <li class="list-group-item bg-warning">
-                                    <i class="far fa-check-circle"></i> Detailing exterior & Paint Correction 3 steps
+                                    <i class="far fa-check-circle"></i> Detailing Exterior & Paint Correction 3 steps
                                 </li>
                                 <li class="list-group-item bg-warning">
-                                    <i class="far fa-check-circle"></i> Interior & Machine Bay detailing
+                                    <i class="far fa-check-circle"></i> Interior & Machine Bay Detailing
                                 </li>
                                 <li class="list-group-item bg-warning">
                                     <i class="far fa-check-circle"></i> Finishing

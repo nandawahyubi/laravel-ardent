@@ -10,6 +10,7 @@ class PackageBenefit extends Model
     use HasFactory;
 
     protected $fillable = [
+        'package_id',
         'name',
     ];
 }
