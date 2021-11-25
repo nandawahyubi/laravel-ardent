@@ -52,11 +52,15 @@
 
 .navbar .collapse ul li:hover::after {
     content: "";
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid orange;
     display: block;
     width: 25%;
     margin: auto;
     margin-bottom: -3px;
+}
+
+.navbar .collapse ul li a.nav-link:hover {
+    color: orange;
 }
 
 .navbar .collapse .btn-secondary {

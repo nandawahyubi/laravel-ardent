@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#process">Process</a>
@@ -51,10 +51,10 @@
             </div>
             @else
             <div class="d-flex">
-                <a href="#" class="btn btn-master btn-secondary me-3">
+                <a href="{{ route('login') }}" class="btn btn-master btn-secondary me-3">
                     Sign In
                 </a>
-                <a href="#" class="btn btn-master btn-warning">
+                <a href="{{ route('login') }}" class="btn btn-master btn-warning">
                     Sign Up
                 </a>
             </div>

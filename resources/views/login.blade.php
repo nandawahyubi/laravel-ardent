@@ -18,7 +18,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="left col">
-                    <img src="{{ asset('img/image-login.png') }}" alt="">
+                    <img src="{{ asset('img/banner-login.png') }}" alt="">
                 </div>
                 <div class="right col">
                     <div class="one">
