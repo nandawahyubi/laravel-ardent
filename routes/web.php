@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 })->name('login');
+
+Route::get('/checkout', function () {
+    return view('checkout/create');
+})->name('checkout');
+
+Route::get('/success', function () {
+    return view('checkout/success');
+})->name('success');

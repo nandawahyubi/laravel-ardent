@@ -456,7 +456,7 @@
                                 </li>
                             </ul>
                             <div class="row justify-content-center my-3">
-                                <a href="" class="btn btn-warning rounded-pill text-light w-75">
+                                <a href="{{ route('checkout') }}" class="btn btn-warning rounded-pill text-light w-75">
                                     choose this package
                                 </a>
                             </div>
@@ -505,7 +505,7 @@
                                 </li>
                             </ul>
                             <div class="row justify-content-center my-3">
-                                <a href="" class="btn btn-warning rounded-pill text-light w-75">
+                                <a href="{{ route('checkout') }}" class="btn btn-warning rounded-pill text-light w-75">
                                     choose this package
                                 </a>
                             </div>
@@ -553,7 +553,7 @@
                                 </li>
                             </ul>
                             <div class="row justify-content-center my-3">
-                                <a href="" class="btn btn-light rounded-pill text-warning w-75">
+                                <a href="{{ route('checkout') }}" class="btn btn-light rounded-pill text-warning w-75">
                                     choose this package
                                 </a>
                             </div>
