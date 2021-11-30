@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Checkout extends Model
 {
@@ -18,6 +19,17 @@ class Checkout extends Model
         'production_year',
         'number_plate',
         'order_schedule',
+        'order_schedule_complate',
         'is_paid',
     ];
+
+    /**
+     * Get the user that owns the Checkout
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function Package(): BelongsTo
+    {
+        return $this->belongsTo(Package::class);
+    }
 }

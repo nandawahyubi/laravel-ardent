@@ -468,8 +468,9 @@ p {
 
 /* dashboard */
 .dashboard .btn-warning {
-    padding: 11px 36px 11px 36px;
+    padding: 10px 15px;
     border-radius: 100px;
     border: 0;
     font-weight: 500;
+    color: lightyellow;
 }

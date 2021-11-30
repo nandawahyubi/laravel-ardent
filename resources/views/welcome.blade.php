@@ -22,9 +22,9 @@
                             </a>
                         </p>
                     </div>
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-12 align-self-center">
                         <a href="#">
-                            <img src="{{asset('img/full-service.png')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('img/full-service.png') }}" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -456,7 +456,8 @@
                                 </li>
                             </ul>
                             <div class="row justify-content-center my-3">
-                                <a href="{{ route('checkout') }}" class="btn btn-warning rounded-pill text-light w-75">
+                                <a href="{{ route('checkout.create', 'signature-nano-ceramic-coating') }}"
+                                    class="btn btn-warning rounded-pill text-light w-75">
                                     choose this package
                                 </a>
                             </div>
@@ -505,7 +506,8 @@
                                 </li>
                             </ul>
                             <div class="row justify-content-center my-3">
-                                <a href="{{ route('checkout') }}" class="btn btn-warning rounded-pill text-light w-75">
+                                <a href="{{ route('checkout.create', 'signature-nano-crystal-based-coating') }}"
+                                    class="btn btn-warning rounded-pill text-light w-75">
                                     choose this package
                                 </a>
                             </div>
@@ -553,7 +555,8 @@
                                 </li>
                             </ul>
                             <div class="row justify-content-center my-3">
-                                <a href="{{ route('checkout') }}" class="btn btn-light rounded-pill text-warning w-75">
+                                <a href="{{ route('checkout.create', 'signature-diamond-coating') }}"
+                                    class="btn btn-light rounded-pill text-warning w-75">
                                     choose this package
                                 </a>
                             </div>
@@ -673,11 +676,11 @@
     </div>
 </section>
 
-<button id="myBtn" title="Go to top" class="btn btn-warning text-light">
+{{-- <button id="myBtn" title="Go to top" class="btn btn-warning text-light">
     <a href="#awal">
         <i class="fas fa-angle-up fa-2x"></i>
     </a>
-</button>
+</button> --}}
 
 <section class="footer">
     <div class="container-fluid">
