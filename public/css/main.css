@@ -419,7 +419,6 @@ p {
     font-weight: 600;
     font-size: 16px;
     color: #ffc200;
-    text-align: center !important;
 }
 
 .primary-header {
@@ -460,4 +459,12 @@ p {
 
 .checkout .btn-primary:hover {
     background: #ffc200;
+}
+
+/* dashboard */
+.dashboard .btn-warning {
+    padding: 11px 36px 11px 36px;
+    border-radius: 100px;
+    border: 0;
+    font-weight: 500;
 }
