@@ -19,7 +19,7 @@ class CreateCheckoutsTable extends Migration
             $table->foreignId('package_id')->constrained();
             $table->string('vehicle_brand', 50);
             $table->string('vehicle_color', 50);
-            $table->date('production_year');
+            $table->bigInteger('production_year');
             $table->string('number_plate', 25);
             $table->date('order_schedule');
             $table->date('order_schedule_complate');
