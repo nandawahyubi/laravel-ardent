@@ -30,60 +30,83 @@
                     </div>
                     <div class="col-lg-1 col-12"></div>
                     <div class="col-lg-6 col-12">
-                        <form action="{{ route('checkout.store', $package->id) }}" class="basic-form" method="POST">
+                        <form action="{{ route('checkout.store', $package->id) }}" class="basic-form" method="POST" autocomplete="off">
                             @csrf
                             <div class="mb-4">
                                 <label for="full-name" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" id="full-name" name="name"
-                                    value="{{ Auth::user()->name }}">
+                                <input type="text" class="form-control {{ $errors->has('name') ? 'is-invalid' : '' }}" id="full-name" name="name"
+                                    value="{{ Auth::user()->name }}" required>
+                                @if ($errors->has('name'))
+                                    <p class="text-danger">{{ $errors->first('name') }}</p>
+                                @endif
                             </div>
                             <div class="mb-4">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" name="email"
-                                    value="{{ Auth::user()->email }}" aria-describedby="emailHelp">
+                                <input type="text" class="form-control {{ $errors->has('email') ? 'is-invalid' : '' }}" id="email" name="email"
+                                    value="{{ Auth::user()->email }}" aria-describedby="emailHelp" required>
+                                @if ($errors->has('email'))
+                                    <p class="text-danger">{{ $errors->first('email') }}</p>
+                                @endif
                             </div>
                             <div class="mb-4">
                                 <label for="no_telp" class="form-label">Phone Number</label>
-                                <input type="number" min="0" class="form-control" id="no_telp" name="no_telp"
-                                    value="{{ Auth::user()->no_telp }}">
+                                <input type="text" min="0" class="form-control {{ $errors->has('no_telp') ? 'is-invalid' : '' }}" id="no_telp" name="no_telp" value="{{ old('no_telp') ?: Auth::user()->no_telp }}" required>
+                                @if ($errors->has('no_telp'))
+                                    <p class="text-danger">{{ $errors->first('no_telp') }}</p>
+                                @endif
                             </div>
-                            <div class=" mb-4">
+                            <div class="mb-4">
                                 <label for="address" class="form-label">Address</label>
-                                <input type="text" class="form-control" id="address" name="address"
-                                    value="{{ Auth::user()->address }}">
+                                <input type="text" class="form-control {{ $errors->has('address') ? 'is-invalid' : '' }}" id="address" name="address"
+                                    value="{{ old('address') ?: Auth::user()->address }}" required>
+                                @if ($errors->has('address'))
+                                    <p class="text-danger">{{ $errors->first('address') }}</p>
+                                @endif
                             </div>
-                            <div class=" mb-5">
+                            <div class="mb-4">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
                                         <label for="vehicle_brand" class="form-label">Vehicle Brand</label>
-                                        <input type="text" class="form-control" id="vehicle_brand" name="vehicle_brand">
+                                        <input type="text" class="form-control {{ $errors->has('vehicle_brand') ? 'is-invalid' : '' }}" id="vehicle_brand" name="vehicle_brand" value="{{ old('vehicle_brand') ?: '' }}" required>
+                                    @if ($errors->has('vehicle_brand'))
+                                        <p class="text-danger">{{ $errors->first('vehicle_brand') }}</p>
+                                    @endif    
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <label for="vehicle_color" class="form-label">Vehicle Color</label>
-                                        <input type="text" class="form-control" id="vehicle_color" name="vehicle_color">
+                                        <input type="text" class="form-control {{ $errors->has('vehicle_color') ? 'is-invalid' : '' }}" id="vehicle_color" name="vehicle_color" value="{{ old('vehicle_color') ?: '' }}" required>
+                                    @if ($errors->has('vehicle_color'))
+                                        <p class="text-danger">{{ $errors->first('vehicle_color') }}</p>
+                                    @endif 
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-5">
+                            <div class="mb-4">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
                                         <label for="production_year" class="form-label">Production Year</label>
-                                        <input type="number" min="1900" max="2025" class="form-control"
-                                            id="production_year" name="production_year">
+                                        <input type="text" class="form-control {{ $errors->has('production_year') ? 'is-invalid' : '' }}" id="production_year" name="production_year" value="{{ old('production_year') ?: '' }}" required>
+                                    @if ($errors->has('production_year'))
+                                        <p class="text-danger">{{ $errors->first('production_year') }}</p>
+                                    @endif
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <label for="number_plate" class="form-label">Number Plate</label>
-                                        <input type="text" maxlength="10" class="form-control" id="number_plate"
-                                            name="number_plate">
+                                        <input type="text" maxlength="15" class="form-control {{ $errors->has('number_plate') ? 'is-invalid' : '' }}" id="number_plate" name="number_plate" value="{{ old('number_plate') ?: '' }}" required>
+                                    @if ($errors->has('number_plate'))
+                                        <p class="text-danger">{{ $errors->first('number_plate') }}</p>
+                                    @endif
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-5">
+                            <div class="mb-4">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
                                         <label for="order_schedule" class="form-label">Order Schedule</label>
-                                        <input type="text" class="form-control" id="order_schedule"
-                                            name="order_schedule" onchange="realtimeDate()" autocomplete="off">
+                                        <input type="text" class="form-control {{ $errors->has('order_schedule') ? 'is-invalid' : '' }}" id="order_schedule" name="order_schedule" onchange="realtimeDate()" value="{{ old('order_schedule') ?: '' }}" required>
+                                    @if ($errors->has('order_schedule'))
+                                        <p class="text-danger">{{ $errors->first('order_schedule') }}</p>
+                                    @endif
                                     </div>
                                     <div class="col-lg-6 col-12" hidden>
                                         <label for="order_schedule_complate" class="form-label">Order Schedule

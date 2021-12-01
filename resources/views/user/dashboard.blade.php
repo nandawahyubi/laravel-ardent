@@ -8,6 +8,7 @@
             </div>
         </div>
         <div class="row my-4 table-responsive">
+            @include('components.alert')
             <table class="table">
                 <thead>
                     <tr class="table-warning align-middle">
