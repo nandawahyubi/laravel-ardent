@@ -44,14 +44,14 @@
                                     </td>
                                     <td class="text-center">
                                         @if ($checkout->is_paid < 2) 
-                                        <form action="{{ route('admin.checkout.update', $checkout->id) }}" method="post">
+                                        <form id="updateCheckout{{ $checkout->id }}" action="{{ route('admin.checkout.update', $checkout->id) }}" method="post">
                                             @csrf
-                                            @if ($checkout->is_paid == 0)
-                                            <button class="button btn-warning btn-sm">Set to Progress</button>
-                                            @elseif ($checkout->is_paid == 1)
-                                            <button class="button btn-success btn-sm">Set to Finished</button>
-                                            @endif
                                         </form>
+                                            @if ($checkout->is_paid == 0)
+                                            <button class="button btn-warning btn-sm" onclick="updateStatustoProgress({{ $checkout->id }})">Set to Progress</button>
+                                            @elseif ($checkout->is_paid == 1)
+                                            <button class="button btn-success btn-sm" onclick="updateStatustoFinished({{ $checkout->id }})">Set to Finished</button>
+                                            @endif
                                         @endif
                                     </td>
                                 </tr>

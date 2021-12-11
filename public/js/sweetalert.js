@@ -1,11 +1,7 @@
-const btn_progress = document.getElementById("btn-progress");
-const btn_finished = document.getElementById("btn-finished");
-
-function changeTo() {
-    var btn_progress = document.getElementById("btn-progress");
-
+function updateStatustoProgress(id){
     Swal.fire({
         title: "Set To Progress",
+        text : "Once changed to progress, you can't revert it back to the beginning!",
         icon: "question",
         showCancelButton: true,
         confirmButtonColor: "#d33",
@@ -14,18 +10,15 @@ function changeTo() {
         cancelButtonText: "Cancel",
     }).then((result) => {
         if (result.isConfirmed) {
-            window.location =
-                "{{ route('admin.checkout.update', $checkout->id) }}";
+            $('#updateCheckout'+id).submit();
         }
     });
 }
 
-btn_finished.addEventListener("click", function () {
-    // const getLink = $(this).attr("href");
-    const getId = $(this).attr("data-id");
-
+function updateStatustoFinished(id){
     Swal.fire({
         title: "Set To Finished",
+        text : "Once changed to finished, you can't revert it back to the beginning!",
         icon: "question",
         showCancelButton: true,
         confirmButtonColor: "#d33",
@@ -34,6 +27,7 @@ btn_finished.addEventListener("click", function () {
         cancelButtonText: "Cancel",
     }).then((result) => {
         if (result.isConfirmed) {
+            $('#updateCheckout'+id).submit();
         }
     });
-});
+}
