@@ -48,10 +48,10 @@
                             @elseif ($checkout->is_paid == 2)
                             <span class="text-success">Finished</span>
                             @else
-                            <span class="text-danger">Waiting for Confirmation</span>
+                            <span class="text-danger">Waiting</span>
                             @endif
                         </td>
-                        <td>
+                        <td class="text-center">
                             <a href="https://wa.me/082272417131?text=Hi, saya ingin bertanya tentang paket {{ $checkout->Package->title }}" class="btn btn-warning">
                                 Contact Support
                             </a>
@@ -59,7 +59,7 @@
                     </tr>
                     @empty
                         <tr>
-                            <td colspan="6">No Data</td>
+                            <td colspan="6" class="text-center py-5 text-decoration-line-through"><b>No Order List</b></td>
                         </tr>
                     @endforelse
                 </tbody>
