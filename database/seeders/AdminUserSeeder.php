@@ -17,8 +17,8 @@ class AdminUserSeeder extends Seeder
         User::create([
             'name'  => 'admin',
             'email' => 'admin@ardent.com',
-            'email_verified_at' => \date('Y-m-d H:i:s', \time()),
-            'password' => \bcrypt('admin'),
+            'email_verified_at' => date('Y-m-d H:i:s', time()),
+            'password' => bcrypt('admin'),
             'is_admin' => true
         ]);
     }
