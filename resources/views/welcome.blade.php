@@ -17,15 +17,13 @@
                             Our car salon will really help your car <br> to keep it looking good and attractive.
                         </p>
                         <p class="cta">
-                            <a href="{{ route('welcome') }}" class="btn btn-master btn-warning">
+                            <a href="#service" class="btn btn-master btn-warning">
                                 Get Started
                             </a>
                         </p>
                     </div>
                     <div class="col-lg-6 col-12 align-self-center">
-                        <a href="#">
-                            <img src="{{ asset('img/full-service.png') }}" class="img-fluid" alt="">
-                        </a>
+                        <img src="{{ asset('img/full-service.png') }}" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -686,12 +684,14 @@
     <div class="container-fluid">
         <div class="footer-parent p-4 d-flex justify-content-between">
             <div class="footer-child">
-                <img src="{{ asset('img/logo-navbar.png') }}" width="220" height="60" alt="logo">
+                <a href="{{ route('welcome') }}">
+                    <img src="{{ asset('img/logo-navbar.png') }}" width="220" height="60" alt="logo">
+                </a>
                 <div>
-                    <span class="text-light">Salon mobil terkenal yang ada di daerah medan. <br> Lebih tepatnya di
-                        Komplek Cemara Asri <br>
-                        Jl.
-                        Boulevard Timur No. 88G</span>
+                    <span class="text-light">Salon mobil terkenal yang ada di daerah medan. <br>
+                        Lebih tepatnya di Komplek Cemara Asri <br>
+                        Jl. Boulevard Timur No. 88G
+                    </span>
                 </div>
             </div>
             <div class="footer-child" style="text-align: right;">
@@ -699,10 +699,10 @@
                     <span class="text-light">Customer Service</span>
                 </div>
                 <div>
-                    <span class="text-success">Telp : (62) 811 6150 309</span>
+                    <span class="text-success">Telp : 0811 6150 309</span>
                 </div>
                 <div>
-                    <span class="text-success">Whatsapp : (62) 811 6150 309 </span>
+                    <span class="text-success">Whatsapp : 0811 6150 309 </span>
                 </div>
                 <div>
                     <span class="text-success">ardentautodetailingaad@gmail.com</span>
