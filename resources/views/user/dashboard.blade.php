@@ -9,26 +9,21 @@
         </div>
         <div class="row my-4 table-responsive">
             @include('components.alert')
-            <table class="table">
+            <table class="table table-responsive">
                 <thead>
-                    <tr class="table-warning align-middle">
-                        <th scope="col"></th>
-                        <th scope="col">Package Name</th>
+                    <tr class="align-middle">
+                        <th scope="col" colspan="2" class="text-center">Package Name</th>
                         <th scope="col" class="text-center">Order Schedule</th>
                         <th scope="col" class="text-center">Schedule Complete</th>
                         <th scope="col" class="text-center">Information</th>
                         <th scope="col"></th>
-                      </tr>
+                    </tr>
                 </thead>
                 <tbody>
                     @forelse ($checkouts as $checkout )
                     <tr class="align-middle">
-                        <td>
-                            <img
-                                src="{{ asset('img/full-service.png') }}"
-                                height="110"
-                                alt=""
-                            />
+                        <td class="text-center">
+                            <img src="{{ asset('img/full-service.png') }}" height="110" alt="" />
                         </td>
                         <td>
                             <p class="mb-2">
@@ -52,15 +47,16 @@
                             @endif
                         </td>
                         <td class="text-center">
-                            <a href="https://wa.me/082272417131?text=Hi, saya ingin bertanya tentang paket {{ $checkout->Package->title }}" class="btn btn-warning">
+                            <a href="https://wa.me/082272417131?text=Hi, saya ingin bertanya tentang paket {{ $checkout->Package->title }}"
+                                class="btn btn-warning">
                                 Contact Support
                             </a>
                         </td>
                     </tr>
                     @empty
-                        <tr>
-                            <td colspan="6" class="text-center py-5 text-decoration-line-through"><b>No Order List</b></td>
-                        </tr>
+                    <tr>
+                        <td colspan="6" class="text-center py-5 text-decoration-line-through"><b>No Order List</b></td>
+                    </tr>
                     @endforelse
                 </tbody>
             </table>
