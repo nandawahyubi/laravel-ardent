@@ -40,7 +40,8 @@
                         <a class="dropdown-item" href="{{ route('dashboard') }}">My Dashboard</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
+                        <a class="dropdown-item" href="#"
+                            onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
                             Sign Out
                         </a>
                         <form id="logout-form" action="{{ route('logout') }}" method="post" style="display: none">

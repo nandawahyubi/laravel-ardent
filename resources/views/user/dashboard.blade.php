@@ -47,9 +47,10 @@
                             @endif
                         </td>
                         <td class="text-center">
+                            <a href="#" class="btn btn-warning">Pay Here</a>
                             <a href="https://wa.me/082272417131?text=Hi, saya ingin bertanya tentang paket {{ $checkout->Package->title }}"
-                                class="btn btn-warning">
-                                Contact Support
+                                class="btn">
+                                <i class="fas fa-headset fa-2x text-primary"></i>
                             </a>
                         </td>
                     </tr>

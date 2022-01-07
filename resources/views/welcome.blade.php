@@ -715,12 +715,12 @@
                     </li>
                     <li>
                         <a href="#">
-                            <i class=" fab fa-instagram-square fa-2x"></i>
+                            <i class="fab fa-instagram-square fa-2x"></i>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class=" fab fa-youtube-square fa-2x"></i>
+                            <i class="fab fa-youtube-square fa-2x"></i>
                         </a>
                     </li>
                 </ul>

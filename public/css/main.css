@@ -467,14 +467,8 @@ p {
 }
 
 /* dashboard */
-.dashboard .btn-warning {
-    padding: 10px 15px;
-    border-radius: 100px;
-    border: 0;
-    font-weight: 500;
-    color: lightyellow;
-}
-
+.dashboard .btn-warning,
+.dashboard .btn-secondary,
 .dashboard .btn-success {
     padding: 10px 15px;
     border-radius: 100px;
